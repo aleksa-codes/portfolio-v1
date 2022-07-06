@@ -168,9 +168,9 @@ p {
   max-height: 100vh;
 }
 
-.main > section {
+/* .main > section {
   overflow: hidden auto;
-}
+} */
 
 .title a {
   color: #0070f3;
