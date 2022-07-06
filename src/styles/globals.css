@@ -94,7 +94,7 @@ p {
   text-align: center;
   gap: 1rem;
   margin-top: 24px;
-  z-index: 99999;
+  z-index: 9999;
 }
 
 .social a {
@@ -145,6 +145,7 @@ p {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top: -1rem;
   }
 }
 
@@ -173,9 +174,46 @@ p {
   max-height: 100vh;
 }
 
-/* .main > section {
+.main > #about {
   overflow: hidden auto;
-} */
+  /* z-index: 99999; */
+}
+
+.main > #contact {
+  overflow: hidden auto;
+  padding-bottom: 1.5rem;
+  /* z-index: 99999; */
+}
+
+.main > #skills {
+  overflow: hidden auto;
+  /* z-index: 99999; */
+}
+
+.main > #projects {
+  overflow: hidden auto;
+  /* z-index: 99999; */
+}
+
+#bmc-wbtn {
+  opacity: 0.75;
+}
+
+#bmc-wbtn:hover {
+  opacity: 1;
+}
+
+#bmc-wbtn:active {
+  opacity: 1;
+}
+
+#bmc-wbtn:focus {
+  opacity: 1;
+}
+
+#bmc-wbtn:target {
+  opacity: 1;
+}
 
 .title a {
   color: #0070f3;

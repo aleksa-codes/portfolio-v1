@@ -24,8 +24,8 @@ const Layout = ({ children }: LayoutProps) => {
         data-message='Thanks for visiting. Made with 💻 and ☕.'
         data-color='#79D6B5'
         data-position='Right'
-        data-x_margin='18'
-        data-y_margin='18'
+        data-x_margin='4'
+        data-y_margin='4'
         async
       ></script>
     </div>

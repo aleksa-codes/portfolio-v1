@@ -167,6 +167,46 @@
     height: 14.75rem;
     margin: 8px 0;
   }
+
+  .projectImg {
+    height: 14.75rem;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .allProjects {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    overflow: scroll auto;
+  }
+
+  .projectImg {
+    height: 12.6rem;
+    width: 16.8rem;
+    margin: 0 auto;
+  }
+  .project {
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .allProjects {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    overflow: scroll auto;
+  }
+
+  .projectImg {
+    height: 12.6rem;
+    width: 16.8rem;
+    margin: 0 auto;
+  }
+  .project {
+    padding-right: 0;
+  }
 }
 
 [data-theme='dark'] .allProjects {
