@@ -6,7 +6,7 @@ import Layout from '../components/Layout';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThemeProvider enableSystem={true}>
+    <ThemeProvider value={{ light: 'light', dark: 'dark' }}>
       <Head>
         <link rel='icon' href='/favicon.png' />
       </Head>
