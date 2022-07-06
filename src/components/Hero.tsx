@@ -39,6 +39,7 @@ const Hero = () => {
             alt='waving hand'
             width={48}
             height={48}
+            layout='fixed'
           />
         </motion.div>
       </h1>
