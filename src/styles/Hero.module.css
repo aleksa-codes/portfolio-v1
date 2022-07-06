@@ -50,5 +50,6 @@
 @media only screen and (max-width: 375px) {
   .heroTitle {
     flex-direction: column;
+    align-items: flex-start;
   }
 }
