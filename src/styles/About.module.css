@@ -43,6 +43,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  scrollbar-color: #1a1a1a transparent;
+}
+
+[data-theme='dark'] .me {
+  scrollbar-color: rgba(255, 255, 255, 0.5) transparent;
 }
 
 .aboutMeContent {

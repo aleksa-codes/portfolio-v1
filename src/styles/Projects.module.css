@@ -8,6 +8,7 @@
   justify-content: center;
   padding-right: 0px;
   padding-left: 0px;
+  overflow: hidden;
 }
 
 .project {
@@ -32,7 +33,7 @@
 .allProjects {
   display: flex;
   flex-direction: column;
-  margin-top: -2.5rem;
+  /* margin-top: -2.5rem; */
   padding: 2.5rem;
   padding-bottom: 0;
   overflow: auto scroll;
@@ -143,10 +144,9 @@
   .allProjects {
     display: flex;
     flex-direction: row;
-    margin-top: -2.5rem;
     padding: 2.5rem;
     padding-bottom: 0;
-    overflow: scroll auto;
+    overflow: scroll hidden;
   }
 
   .project {
@@ -175,13 +175,13 @@
 @media only screen and (max-width: 414px) {
   .projects {
     overflow: hidden auto;
-    padding-top: 2.5rem;
   }
 
   .allProjects {
     display: flex;
     flex-direction: column;
     padding: 0;
+    overflow: hidden auto;
   }
 
   .projectImg {
