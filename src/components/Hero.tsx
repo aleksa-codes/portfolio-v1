@@ -1,9 +1,16 @@
 import styles from '../styles/Hero.module.css';
+import Typed from 'react-typed';
+import Emoji from 'a11y-react-emoji';
+
+const text = 'Hello World';
 
 const Hero = () => {
   return (
     <section className={styles.hero}>
-      <h1 className={styles.heroTitle}>Hello World 👋</h1>
+      <h1 className={styles.heroTitle}>
+        <Typed strings={[text]} typeSpeed={192} loop={false} />
+        <Emoji symbol='👋' label='wave' />
+      </h1>
       <h1 className={styles.whatsMyName}>My name is Aleksa</h1>
 
       <h2 className={styles.heroSubTitle}>
