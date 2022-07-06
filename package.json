@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "a11y-react-emoji": "^1.2.0",
+    "framer-motion": "^6.4.2",
     "next": "12.2.0",
     "next-themes": "^0.2.0",
     "react": "18.2.0",

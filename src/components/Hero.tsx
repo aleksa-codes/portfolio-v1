@@ -1,6 +1,7 @@
 import styles from '../styles/Hero.module.css';
 import Typed from 'react-typed';
-import Emoji from 'a11y-react-emoji';
+import Image from 'next/image';
+import { motion } from 'framer-motion';
 
 const text = 'Hello World';
 
@@ -8,8 +9,40 @@ const Hero = () => {
   return (
     <section className={styles.hero}>
       <h1 className={styles.heroTitle}>
-        <Typed strings={[text]} typeSpeed={192} loop={false} />
-        <Emoji symbol='👋' label='wave' />
+        <Typed
+          className={styles.helloWorld}
+          strings={[text]}
+          typeSpeed={192}
+          loop={false}
+        />
+
+        {/* animate Image getting bigger using framer-motion */}
+        <motion.div
+          className={styles.image}
+          initial={{ scale: 0 }}
+          animate={{
+            scale: [0, 0.5, 1],
+            rotate: [0, 14, -8, 14, -4, 10, 0, 0]
+          }}
+          transition={{
+            scale: { duration: 0.75, ease: 'easeInOut', delay: 2.75 },
+            rotate: {
+              duration: 2.5,
+              ease: 'easeOut',
+              delay: 3.5,
+              repeat: 7,
+              repeatDelay: 1
+            }
+          }}
+        >
+          <Image
+            className={styles.wavingHandEmoji}
+            src='/waving-hand.webp'
+            alt='waving hand'
+            width={48}
+            height={48}
+          />
+        </motion.div>
       </h1>
       <h1 className={styles.whatsMyName}>My name is Aleksa</h1>
 

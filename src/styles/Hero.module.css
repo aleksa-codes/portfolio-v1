@@ -11,6 +11,10 @@
 
 .heroTitle {
   margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .heroSubTitle {
@@ -37,4 +41,8 @@
 
 [data-theme='dark'] .hero > h2 {
   color: #dcdcdc;
+}
+
+.helloWorld {
+  margin-right: 1rem;
 }
