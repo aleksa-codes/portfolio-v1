@@ -179,24 +179,21 @@ p {
 
 .main > #about {
   overflow: hidden auto;
-  /* z-index: 99999; */
 }
 
 .main > #contact {
   overflow: hidden auto;
   padding-bottom: 1.5rem;
-  /* z-index: 99999; */
 }
 
 .main > #skills {
   overflow: hidden auto;
-  /* z-index: 99999; */
 }
 
-.main > #projects {
+/* .main > #projects {
   overflow: hidden auto;
-  /* z-index: 99999; */
-}
+
+} */
 
 #bmc-wbtn {
   opacity: 0.75;
@@ -318,10 +315,17 @@ p {
   }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 375px) {
   html,
   body {
     font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  html,
+  body {
+    font-size: 0.8rem;
   }
 }
 

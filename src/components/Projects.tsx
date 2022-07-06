@@ -4,10 +4,8 @@ import Image from 'next/image';
 const Project = () => {
   return (
     <section id='projects' className={styles.projects}>
-      <div>
-        <h3 className='aboutMeTitle'>Projects</h3>
-      </div>
       <div className={styles.allProjects}>
+        <h3 className='aboutMeTitle'>Projects</h3>
         <div className={styles.project}>
           <div className={styles.projectDetails}>
             <div className={styles.projectCategory}>🕹️ Category #1</div>

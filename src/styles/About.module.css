@@ -59,11 +59,9 @@
     flex-direction: column;
   }
 
-  /* .aboutImage {
-    scale: 0.5;
+  .aboutImage {
     margin: 0 auto;
-    margin-top: -6rem;
-  } */
+  }
 }
 
 /* @media screen and (max-width: 521px) {
