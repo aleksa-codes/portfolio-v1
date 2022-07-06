@@ -15,8 +15,6 @@ const Hero = () => {
           typeSpeed={192}
           loop={false}
         />
-
-        {/* animate Image getting bigger using framer-motion */}
         <motion.div
           className={styles.image}
           initial={{ scale: 0 }}
@@ -50,7 +48,7 @@ const Hero = () => {
         I design and build{' '}
         <span className='underline'>things for the web.</span>
       </h2>
-      <h4>Computer Science Student and Web Developer. Based in Belgrade.</h4>
+      <h3>Computer Science Student and Web Developer. Based in Belgrade.</h3>
       <div className='social'>
         <a href='https://github.com/aleksastojsic' target='_noblank'>
           <svg

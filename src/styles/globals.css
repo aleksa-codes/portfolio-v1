@@ -63,10 +63,13 @@ h2 {
 }
 h3 {
   font-weight: 700;
-  font-size: 1.75rem;
-  line-height: 2.25rem;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   color: black;
-  margin-bottom: 3rem;
+  @media only screen and (min-width: 414px) {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
 }
 h4 {
   font-weight: 700;
@@ -359,6 +362,10 @@ p {
 [data-theme='dark'] .body {
   background-color: #121212;
   color: #dcdcdc;
+}
+
+[data-theme='dark'] h3 {
+  color: #ffff;
 }
 
 [data-theme='dark'] h4 {
