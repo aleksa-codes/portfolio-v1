@@ -103,7 +103,7 @@ const Project = () => {
               <div className={styles.projectCategory}>📓 Category #2</div>
               <div className={styles.projectTitle}>Project #2</div>
               <p>Working on it...</p>
-              <div className={styles.projectTags}>
+              <div className={`${styles.projectTags} ${styles.projectTagsRight}`}>
                 <span className='underline'>HTML</span>
                 <span className='underline'>CSS</span>
                 <span className='underline'>JavaScript</span>
