@@ -23,10 +23,10 @@ const Contact = () => {
         </a> */}
         <form
           className={styles.form}
-          onSubmit={handleSubmit}
           target='_blank'
           action='https://formsubmit.co/9f2e38d7a97aa8e4fad043b4b83b9558'
           method='POST'
+          onSubmit={handleSubmit}
         >
           <div>
             <label htmlFor='name-field'>
@@ -85,9 +85,9 @@ const Contact = () => {
             </label>
           </div>
           <div className={styles.formBtns}>
-            <button type='submit' className={styles.submit}>
+            <input type='submit' className={styles.submit}>
               Send
-            </button>
+            </input>
             <button type='reset' className={styles.reset}>
               Reset
             </button>
