@@ -53,3 +53,8 @@
     align-items: flex-start;
   }
 }
+@media only screen and (max-width: 375px) {
+  .hero h3 {
+    margin-top: 8px;
+  }
+}
