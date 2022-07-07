@@ -22,6 +22,10 @@
   font-size: 1.2rem;
 }
 
+.contactWrap p {
+  padding: 0 0.5rem;
+}
+
 .avatar {
   width: 100%;
   max-width: 8.75rem;

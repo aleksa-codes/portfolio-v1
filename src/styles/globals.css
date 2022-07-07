@@ -18,7 +18,12 @@ body {
 }
 
 main > section {
-  overflow: hidden auto;
+  overflow: hidden visible;
+}
+
+/* select second div child in main > section */
+main > section > div:nth-child(2) {
+  overflow: auto auto;
 }
 
 a {
