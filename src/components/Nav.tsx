@@ -15,9 +15,7 @@ const Nav = () => {
       <nav className={styles.mainNav}>
         <div className={styles.logo}>
           <Link href='/'>
-            <a className={styles.logoA}>
-              aleksa.<span className={styles.logoCode}>codes</span>
-            </a>
+            <a className={styles.logoA}>aleksa.codes</a>
           </Link>
         </div>
 
