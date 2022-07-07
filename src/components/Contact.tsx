@@ -1,5 +1,10 @@
 import styles from '../styles/Contact.module.css';
 
+const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
+  console.log('submit');
+};
+
 const Contact = () => {
   return (
     <section id='contact' className={styles.contact}>
@@ -18,6 +23,7 @@ const Contact = () => {
         </a> */}
         <form
           className={styles.form}
+          onSubmit={handleSubmit}
           target='_blank'
           action='https://formsubmit.co/9f2e38d7a97aa8e4fad043b4b83b9558'
           method='POST'
