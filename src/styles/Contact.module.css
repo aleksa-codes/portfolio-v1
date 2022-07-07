@@ -75,6 +75,11 @@
   margin-top: -0.5rem;
 }
 
+.formBtns svg {
+  margin-left: 0.25rem;
+  margin-bottom: -0.3rem;
+}
+
 .submit {
   width: 96px;
   height: 48px;

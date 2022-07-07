@@ -1,5 +1,6 @@
 import styles from '../styles/Contact.module.css';
 import PageTransition from './PageTransition';
+import { Send, Eraser } from 'tabler-icons-react';
 
 // const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
 //   e.preventDefault();
@@ -89,9 +90,11 @@ const Contact = () => {
             <div className={styles.formBtns}>
               <button type='submit' className={styles.submit}>
                 Send
+                <Send size={20} strokeWidth={2} />
               </button>
               <button type='reset' className={styles.reset}>
-                Reset
+                Clear
+                <Eraser size={20} strokeWidth={2} />
               </button>
             </div>
           </form>
