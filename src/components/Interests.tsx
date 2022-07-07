@@ -1,6 +1,6 @@
 import styles from '../styles/Interests.module.css';
 import Image from 'next/image';
-import { Fragment, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import PageTransition from './PageTransition';
 
