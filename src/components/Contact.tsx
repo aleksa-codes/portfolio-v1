@@ -38,7 +38,7 @@ const Contact = () => {
                     type='text'
                     name='name'
                     className={styles.input}
-                    placeholder='e.g Bon Jovi'
+                    placeholder='e.g. Bon Jovi'
                     required
                   ></input>
                 </div>
