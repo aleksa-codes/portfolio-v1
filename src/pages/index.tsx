@@ -6,7 +6,7 @@ const Home: NextPage = () => (
   <>
     <Head>
       <title>Home | Aleksa</title>
-      <meta name='description' content="Aleksa's homepage" />
+      <meta name='description' content="Aleksa's personal website" />
     </Head>
     <Hero />
   </>

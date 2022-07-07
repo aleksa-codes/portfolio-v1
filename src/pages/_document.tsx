@@ -8,7 +8,7 @@ import Document, {
 } from 'next/document';
 
 const APP_NAME = 'aleksa.codes';
-const APP_DESCRIPTION = "Aleksa's personal website";
+// const APP_DESCRIPTION = "Aleksa's personal website";
 
 /////////////////////////////////////////////////////////////
 // credit: https://sreetamdas.com/blog/the-perfect-dark-mode
@@ -82,7 +82,7 @@ class MyDocument extends Document {
             content='default'
           />
           <meta name='apple-mobile-web-app-title' content={APP_NAME} />
-          <meta name='description' content={APP_DESCRIPTION} />
+          {/* <meta name='description' content={APP_DESCRIPTION} /> */}
           <meta name='format-detection' content='telephone=no' />
           <meta name='mobile-web-app-capable' content='yes' />
           <meta name='theme-color' content='#000000' />
