@@ -85,9 +85,9 @@ const Contact = () => {
             </label>
           </div>
           <div className={styles.formBtns}>
-            <input type='submit' className={styles.submit}>
+            <button type='submit' className={styles.submit}>
               Send
-            </input>
+            </button>
             <button type='reset' className={styles.reset}>
               Reset
             </button>
