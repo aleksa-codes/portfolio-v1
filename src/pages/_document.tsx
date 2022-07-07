@@ -88,14 +88,22 @@ class MyDocument extends Document {
           <meta name='theme-color' content='#000000' />
           {/* TIP: set viewport head meta tag in _app.js, otherwise it will show a warning */}
           {/* <meta name='viewport' content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover' /> */}
-          <link
+          {/* <link
             rel='apple-touch-icon'
             sizes='180x180'
             href='/icons/ios/180.png'
-          />
+          /> */}
           {/* <link rel='manifest' href='/manifest.json' /> */}
           {/* <link rel='shortcut icon' href='/favicon.ico' /> */}
           {/* PWA end */}
+          {/* <link
+            href='https://fonts.googleapis.com/css2?family=Roboto&display=swap'
+            rel='stylesheet'
+          /> */}
+          <link
+            href='https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap'
+            rel='stylesheet'
+          />
         </Head>
         <body>
           <script
