@@ -1,4 +1,5 @@
 import styles from '../styles/Contact.module.css';
+import PageTransition from './PageTransition';
 
 // const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
 //   e.preventDefault();
@@ -7,93 +8,94 @@ import styles from '../styles/Contact.module.css';
 
 const Contact = () => {
   return (
-    <section id='contact' className={styles.contact}>
-      <h2 className='aboutMeTitle'>Contact me</h2>
-      <div className={styles.contactWrap}>
-        <p>
-          Feel free to reach out to me at any time, I am always interested in{' '}
-          <span className='underline'>new stuff</span>!
-        </p>
-        {/* <div className={styles.avatar}>
+    <PageTransition>
+      <section id='contact' className={styles.contact}>
+        <h2 className='aboutMeTitle'>Contact me</h2>
+        <div className={styles.contactWrap}>
+          <p>
+            Feel free to reach out to me at any time, I am always interested in{' '}
+            <span className='underline'>new stuff</span>!
+          </p>
+          {/* <div className={styles.avatar}>
           <Image src='/contact.png' alt='Avatar' width={140} height={140} />
         </div>
         <strong>Aleksa Stojsic</strong>
         <a href='mailto:stojsic.aleksa@gmail.com'>
           <span className='underline'>stojsic.aleksa@gmail.com</span>
         </a> */}
-        <form
-          className={styles.form}
-          target='_blank'
-          action='https://formsubmit.co/9f2e38d7a97aa8e4fad043b4b83b9558'
-          method='POST'
-          // onSubmit={handleSubmit}
-        >
-          <div>
-            <label htmlFor='name-field'>
-              Name
-              <div id='name-field'>
-                <input
-                  type='text'
-                  name='name'
-                  className={styles.input}
-                  placeholder='e.g Bon Jovi'
-                  required
-                ></input>
-              </div>
-            </label>
-          </div>
-          <div>
-            <label htmlFor='email-field'>
-              Email
-              <div id='email-field'>
-                <input
-                  type='email'
-                  name='email'
-                  className={styles.input}
-                  placeholder='e.g. bon.jovi@gmail.com'
-                  required
-                ></input>
-              </div>
-            </label>
-          </div>
-          <div>
-            <label htmlFor='subject-field'>
-              Subject
-              <div id='subject-field'>
-                <input
-                  type='text'
-                  name='_subject'
-                  className={styles.input}
-                  placeholder="e.g. Let's Connect!"
-                  required
-                ></input>
-              </div>
-            </label>
-          </div>
-          <div>
-            <label htmlFor='message-field'>
-              Message
-              <div id='message-field'>
-                <textarea
-                  placeholder='Your Message Here'
-                  className={styles.input}
-                  name='message'
-                  rows={8}
-                  required
-                ></textarea>
-              </div>
-            </label>
-          </div>
-          <div className={styles.formBtns}>
-            <button type='submit' className={styles.submit}>
-              Send
-            </button>
-            <button type='reset' className={styles.reset}>
-              Reset
-            </button>
-          </div>
-        </form>
-        {/* <div className='social'>
+          <form
+            className={styles.form}
+            target='_blank'
+            action='https://formsubmit.co/9f2e38d7a97aa8e4fad043b4b83b9558'
+            method='POST'
+            // onSubmit={handleSubmit}
+          >
+            <div>
+              <label htmlFor='name-field'>
+                Name
+                <div id='name-field'>
+                  <input
+                    type='text'
+                    name='name'
+                    className={styles.input}
+                    placeholder='e.g Bon Jovi'
+                    required
+                  ></input>
+                </div>
+              </label>
+            </div>
+            <div>
+              <label htmlFor='email-field'>
+                Email
+                <div id='email-field'>
+                  <input
+                    type='email'
+                    name='email'
+                    className={styles.input}
+                    placeholder='e.g. bon.jovi@gmail.com'
+                    required
+                  ></input>
+                </div>
+              </label>
+            </div>
+            <div>
+              <label htmlFor='subject-field'>
+                Subject
+                <div id='subject-field'>
+                  <input
+                    type='text'
+                    name='_subject'
+                    className={styles.input}
+                    placeholder="e.g. Let's Connect!"
+                    required
+                  ></input>
+                </div>
+              </label>
+            </div>
+            <div>
+              <label htmlFor='message-field'>
+                Message
+                <div id='message-field'>
+                  <textarea
+                    placeholder='Your Message Here'
+                    className={styles.input}
+                    name='message'
+                    rows={8}
+                    required
+                  ></textarea>
+                </div>
+              </label>
+            </div>
+            <div className={styles.formBtns}>
+              <button type='submit' className={styles.submit}>
+                Send
+              </button>
+              <button type='reset' className={styles.reset}>
+                Reset
+              </button>
+            </div>
+          </form>
+          {/* <div className='social'>
           <a href='https://github.com/aleksastojsic' target='_noblank'>
             <svg
               version='1.1'
@@ -183,8 +185,9 @@ const Contact = () => {
             Resume
           </a>
         </div> */}
-      </div>
-    </section>
+        </div>
+      </section>
+    </PageTransition>
   );
 };
 

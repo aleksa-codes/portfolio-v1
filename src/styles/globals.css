@@ -17,12 +17,13 @@ body {
   overflow: hidden;
 }
 
-main > section {
-  overflow: hidden visible;
+main > div {
+  overflow: hidden;
+  width: 100%;
 }
 
 /* select second div child in main > section */
-main > section > div:nth-child(2) {
+main > div > section > div:nth-child(2) {
   overflow: auto auto;
 }
 
