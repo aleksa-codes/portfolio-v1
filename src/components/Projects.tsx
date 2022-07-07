@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Project = () => {
   return (
     <section id='projects' className={styles.projects}>
-      <h3 className='aboutMeTitle'>Projects</h3>
+      <h2 className='aboutMeTitle'>Projects</h2>
       <div className={styles.allProjects}>
         <div className={styles.project}>
           <div className={styles.projectDetails}>
@@ -78,7 +78,7 @@ const Project = () => {
           <div className={styles.projectImg}>
             <Image
               className={styles.interestImg}
-              src='https://picsum.photos/400/300'
+              src='https://i.picsum.photos/id/931/400/300.jpg?hmac=FhFheS_55fS4hxnV9HEqOFr8fr-htDTpvBevt3BpNcM'
               alt='Picture of the author'
               width={400}
               height={300}
@@ -89,7 +89,7 @@ const Project = () => {
           <div className={styles.projectImg}>
             <Image
               className={styles.interestImg}
-              src='https://picsum.photos/400/300'
+              src='https://i.picsum.photos/id/931/400/300.jpg?hmac=FhFheS_55fS4hxnV9HEqOFr8fr-htDTpvBevt3BpNcM'
               alt='Picture of the author'
               width={400}
               height={300}
@@ -240,7 +240,7 @@ const Project = () => {
           <div className={styles.projectImg}>
             <Image
               className={styles.interestImg}
-              src='https://picsum.photos/400/300'
+              src='https://i.picsum.photos/id/931/400/300.jpg?hmac=FhFheS_55fS4hxnV9HEqOFr8fr-htDTpvBevt3BpNcM'
               alt='Picture of the author'
               width={400}
               height={300}

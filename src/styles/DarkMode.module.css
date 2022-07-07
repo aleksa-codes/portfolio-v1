@@ -43,17 +43,13 @@
 }
 
 .button:active {
+  color: #fff;
   box-shadow: none;
   transform: translateY(0);
 }
 
-[data-theme='dark'] .button:hover {
+[data-theme='dark'] .button:hover,
+[data-theme='dark'] .button:active {
   color: #1a1a1a;
   background-color: #fff;
-  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-  transform: translateY(-1px);
-  -webkit-transform: translateY(-1px);
-  -moz-transform: translateY(-1px);
-  -ms-transform: translateY(-1px);
-  -o-transform: translateY(-1px);
 }

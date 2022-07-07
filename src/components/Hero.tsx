@@ -71,7 +71,7 @@ const Hero = () => {
  c202.2-67.8,348.8-259.8,348.8-485.8C1286-20.2,1056.9-249.4,774-249.4z'
             ></path>
           </svg>{' '}
-          Gitub
+          GitHub
         </a>
         <a href='https://www.linkedin.com/in/aleksa-stojsic/' target='_noblank'>
           <svg

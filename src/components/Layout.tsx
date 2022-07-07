@@ -6,7 +6,7 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <div className='body'>
+    <>
       <div className='container'>
         <main className='main'>
           <Nav />
@@ -27,7 +27,7 @@ const Layout = ({ children }: LayoutProps) => {
         data-y_margin='4'
         async
       ></script>
-    </div>
+    </>
   );
 };
 

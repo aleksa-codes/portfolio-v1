@@ -9,7 +9,7 @@ const Interest = () => {
 
   return (
     <section id='skills' className={styles.skills}>
-      <h3 className='aboutMeTitle'>Interests & Skills</h3>
+      <h2 className='aboutMeTitle'>Interests & Skills</h2>
 
       <div className={styles.interests}>
         <div className={styles.interestBtn}>

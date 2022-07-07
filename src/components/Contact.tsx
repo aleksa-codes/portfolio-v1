@@ -3,7 +3,7 @@ import styles from '../styles/Contact.module.css';
 const Contact = () => {
   return (
     <section id='contact' className={styles.contact}>
-      <h3 className='aboutMeTitle'>Contact me</h3>
+      <h2 className='aboutMeTitle'>Contact me</h2>
       <div className={styles.contactWrap}>
         <p>
           Feel free to reach out to me at any time, I am always interested in{' '}

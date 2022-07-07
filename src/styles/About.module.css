@@ -44,6 +44,7 @@
   flex-direction: column;
   justify-content: space-between;
   scrollbar-color: #1a1a1a transparent;
+  margin: 0 auto 1rem auto;
 }
 
 [data-theme='dark'] .me {
