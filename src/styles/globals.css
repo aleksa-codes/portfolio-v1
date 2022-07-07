@@ -116,7 +116,7 @@ p {
   height: auto;
   font-weight: 500;
   border-radius: 1rem;
-  border: 1px solid rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0)
     linear-gradient(to right, rgb(0, 0, 0) 50%, rgb(255, 255, 255) 50%) repeat
     scroll right bottom / 205% 105%;
@@ -358,7 +358,7 @@ p {
     right bottom / 205% 100%;
   background-position-x: right;
   background-position-y: bottom;
-  border: 1px solid rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
 }
 
 [data-theme='dark'] .social > a:hover {
