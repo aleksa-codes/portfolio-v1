@@ -1,4 +1,5 @@
 import Nav from './Nav';
+import PageTransition from './PageTransition';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -10,7 +11,7 @@ const Layout = ({ children }: LayoutProps) => {
       <div className='container'>
         <main className='main'>
           <Nav />
-          {children}
+          <PageTransition>{children}</PageTransition>
         </main>
       </div>
       {/* <Footer /> */}

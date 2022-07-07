@@ -9,6 +9,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <ThemeProvider value={{ light: 'light', dark: 'dark' }}>
       <Head>
         <link rel='icon' href='/favicon.png' />
+        <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       </Head>
       <Layout>
         <Component {...pageProps} />
