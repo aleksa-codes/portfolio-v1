@@ -78,7 +78,7 @@ const Project = () => {
           <div className={styles.projectImg}>
             <Image
               className={styles.interestImg}
-              src='https://i.picsum.photos/id/931/400/300.jpg?hmac=FhFheS_55fS4hxnV9HEqOFr8fr-htDTpvBevt3BpNcM'
+              src='https://picsum.photos/id/931/400/300'
               alt='Picture of the author'
               width={400}
               height={300}
@@ -89,7 +89,7 @@ const Project = () => {
           <div className={styles.projectImg}>
             <Image
               className={styles.interestImg}
-              src='https://i.picsum.photos/id/931/400/300.jpg?hmac=FhFheS_55fS4hxnV9HEqOFr8fr-htDTpvBevt3BpNcM'
+              src='https://picsum.photos/id/931/400/300'
               alt='Picture of the author'
               width={400}
               height={300}
@@ -240,7 +240,7 @@ const Project = () => {
           <div className={styles.projectImg}>
             <Image
               className={styles.interestImg}
-              src='https://i.picsum.photos/id/931/400/300.jpg?hmac=FhFheS_55fS4hxnV9HEqOFr8fr-htDTpvBevt3BpNcM'
+              src='https://picsum.photos/id/931/400/300'
               alt='Picture of the author'
               width={400}
               height={300}
