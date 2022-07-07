@@ -358,7 +358,7 @@ p {
     right bottom / 205% 100%;
   background-position-x: right;
   background-position-y: bottom;
-  border: 0.125rem solid rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
 }
 
 [data-theme='dark'] .social > a:hover {

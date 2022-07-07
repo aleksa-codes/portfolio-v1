@@ -213,7 +213,7 @@
   color: white;
 }
 [data-theme='dark'] .contactBtn {
-  border: 0.125rem solid rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
   background: rgb(255, 255, 255)
     linear-gradient(to right, rgb(255, 255, 255) 50%, #121212 50%) repeat scroll
     right bottom / 205% 100%;
