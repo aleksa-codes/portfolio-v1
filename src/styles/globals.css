@@ -140,21 +140,6 @@ p {
   background: #6dc1a3 !important;
 }
 
-@media only screen and (max-width: 768px) {
-  .social > a {
-    margin: 0;
-  }
-}
-
-@media only screen and (max-width: 516px) {
-  .social {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 0;
-  }
-}
-
 .container {
   position: fixed;
   inset: 0;
@@ -299,6 +284,12 @@ p {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .social > a {
+    margin: 0;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   #bmc-wbtn {
     opacity: 0.75;
@@ -323,6 +314,15 @@ p {
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 516px) {
+  .social {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0;
   }
 }
 
