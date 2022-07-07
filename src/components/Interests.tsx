@@ -1,6 +1,7 @@
 import styles from '../styles/Interests.module.css';
 import Image from 'next/image';
 import { Fragment, useEffect, useState } from 'react';
+import { motion } from 'framer-motion';
 import PageTransition from './PageTransition';
 
 const Interest = () => {
@@ -87,19 +88,29 @@ const Interest = () => {
           )}
 
           {showMore && (
-            <Fragment>
-              <div className={styles.interestBtn}>
-                <div className={styles.interestIco}>
-                  <Image
-                    className={styles.interestImg}
-                    src='/icons/db.png'
-                    alt='Picture of the author'
-                    width={20}
-                    height={20}
-                  />
-                </div>{' '}
-                SQL/NoSQL Database
-              </div>
+            <>
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{
+                  opacity: 1,
+                  transition: {
+                    duration: 1.25
+                  }
+                }}
+              >
+                <div className={styles.interestBtn}>
+                  <div className={styles.interestIco}>
+                    <Image
+                      className={styles.interestImg}
+                      src='/icons/db.png'
+                      alt='Picture of the author'
+                      width={20}
+                      height={20}
+                    />
+                  </div>{' '}
+                  SQL/NoSQL Database
+                </div>
+              </motion.div>
               {/* <div className={styles.interestBtn}>
               <div className={styles.interestIco}>
                 <Image
@@ -112,43 +123,73 @@ const Interest = () => {
               </div>{' '}
               Gatsby.js
             </div> */}
-              <div className={styles.interestBtn}>
-                <div className={styles.interestIco}>
-                  <Image
-                    className={`${styles.interestImg} ${styles.next}`}
-                    src='/icons/next.png'
-                    alt='Picture of the author'
-                    width={30}
-                    height={20}
-                  />
-                </div>{' '}
-                Next.js
-              </div>
-              <div className={styles.interestBtn}>
-                <div className={styles.interestIco}>
-                  <Image
-                    className={styles.interestImg}
-                    src='/icons/basketball.png'
-                    alt='Picture of the author'
-                    width={20}
-                    height={20}
-                  />
-                </div>{' '}
-                Basketball
-              </div>
-              <div className={styles.interestBtn}>
-                <div className={styles.interestIco}>
-                  <Image
-                    className={styles.interestImg}
-                    src='/icons/joystick.png'
-                    alt='Picture of the author'
-                    width={20}
-                    height={20}
-                  />
-                </div>{' '}
-                Video Games
-              </div>
-            </Fragment>
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{
+                  opacity: 1,
+                  transition: {
+                    duration: 1.25
+                  }
+                }}
+              >
+                <div className={styles.interestBtn}>
+                  <div className={styles.interestIco}>
+                    <Image
+                      className={`${styles.interestImg} ${styles.next}`}
+                      src='/icons/next.png'
+                      alt='Picture of the author'
+                      width={30}
+                      height={20}
+                    />
+                  </div>{' '}
+                  Next.js
+                </div>
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{
+                  opacity: 1,
+                  transition: {
+                    duration: 1.25
+                  }
+                }}
+              >
+                <div className={styles.interestBtn}>
+                  <div className={styles.interestIco}>
+                    <Image
+                      className={styles.interestImg}
+                      src='/icons/basketball.png'
+                      alt='Picture of the author'
+                      width={20}
+                      height={20}
+                    />
+                  </div>{' '}
+                  Basketball
+                </div>
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{
+                  opacity: 1,
+                  transition: {
+                    duration: 1.25
+                  }
+                }}
+              >
+                <div className={styles.interestBtn}>
+                  <div className={styles.interestIco}>
+                    <Image
+                      className={styles.interestImg}
+                      src='/icons/joystick.png'
+                      alt='Picture of the author'
+                      width={20}
+                      height={20}
+                    />
+                  </div>{' '}
+                  Video Games
+                </div>
+              </motion.div>
+            </>
           )}
         </div>
       </section>
