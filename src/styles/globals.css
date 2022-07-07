@@ -302,8 +302,7 @@ p {
 @media only screen and (max-width: 600px) {
   #bmc-wbtn {
     opacity: 0.75;
-    margin-bottom: 4px:
-    margin-right: 4px;
+    margin: 0 4px 4px 0;
   }
 
   #bmc-wbtn:hover {
