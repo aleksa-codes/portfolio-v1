@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider value={{ light: 'light', dark: 'dark' }}>
       <Head>
-        <link rel='icon' href='/favicon.png' />
+        <link rel='shortcut icon' href='/favicon.ico' />
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       </Head>
       <Layout>

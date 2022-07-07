@@ -94,7 +94,7 @@ class MyDocument extends Document {
             href='/icons/ios/180.png'
           />
           {/* <link rel='manifest' href='/manifest.json' /> */}
-          <link rel='shortcut icon' href='/favicon.ico' />
+          {/* <link rel='shortcut icon' href='/favicon.ico' /> */}
           {/* PWA end */}
         </Head>
         <body>
