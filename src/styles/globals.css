@@ -366,18 +366,6 @@ p {
   color: rgb(0, 0, 0);
 }
 
-[data-theme='dark'] .social > a svg {
-  filter: invert(1);
-  -webkit-filter: invert(1);
-  transition: all 0.1s ease-out 0s;
-}
-
-[data-theme='dark'] .social > a:hover svg {
-  filter: invert(0);
-  -webkit-filter: invert(0);
-  transition: all 0.1s ease-out 0s;
-}
-
 [data-theme='dark'] .aboutMeTitle {
   color: #ffff;
 }
