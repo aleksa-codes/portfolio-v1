@@ -9,6 +9,7 @@ const Home: NextPage = () => (
       <meta name='robots' content='index,nofollow' />
       <meta name='googlebot' content='index,nofollow' />
       <meta name='description' content="Aleksa's personal website" />
+      <link rel='canonical' href='https://aleksa.vercel.app' />
     </Head>
     <Hero />
   </>
