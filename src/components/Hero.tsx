@@ -1,4 +1,5 @@
 import styles from '../styles/Hero.module.css';
+import 'react-typed/dist/animatedCursor.css';
 import { BrandGithub, BrandLinkedin, FileText } from 'tabler-icons-react';
 import Typed from 'react-typed';
 import Image from 'next/image';
