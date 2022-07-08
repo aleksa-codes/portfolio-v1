@@ -30,9 +30,9 @@ const Hero = () => {
               rotate: {
                 duration: 2.5,
                 ease: 'easeOut',
-                delay: 5,
+                delay: 3.5,
                 repeat: 3,
-                repeatDelay: 1
+                repeatDelay: 4
               }
             }}
           >
