@@ -183,7 +183,7 @@ p {
 } */
 
 #bmc-wbtn {
-  opacity: 1;
+  opacity: 0.9;
   margin-bottom: 16px;
   margin-right: 16px;
 }
