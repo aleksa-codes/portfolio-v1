@@ -20,7 +20,7 @@ jobs:
           node-version: '16.x'
 
       - name: Installing my packages
-        run: npm run install --immutable --immutable-cache --check-cache
+        run: npm ci
 
       - name: Build my App
         run: npm run build && npm run export && touch ./out/.nojekyll
