@@ -123,7 +123,7 @@ class MyDocument extends Document {
             data-id='aleksa'
             data-description='Support me on Buy me a coffee!'
             data-message='Thanks for visiting. Made with 💻 and ☕.'
-            data-color='#007042'
+            data-color='#5ca08e'
             data-position='Right'
             data-x_margin='4'
             data-y_margin='4'
