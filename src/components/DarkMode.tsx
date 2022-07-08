@@ -1,7 +1,7 @@
 import styles from '../styles/DarkMode.module.css';
+import { Sun, Moon } from 'tabler-icons-react';
 import { useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
-import { Sun, Moon } from 'tabler-icons-react';
 
 const DarkMode = () => {
   const [mounted, setMounted] = useState(false);

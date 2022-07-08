@@ -58,6 +58,9 @@
 }
 
 .loadMore {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   width: 15.625rem;
   height: 3rem;
   background-color: rgb(18, 18, 18);
@@ -71,8 +74,16 @@
   border: none;
   border-radius: 1rem;
   text-decoration: none;
-  text-align: left;
+  transition: all 0.75s;
   appearance: button;
+}
+
+.loadMore svg {
+  position: relative;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 23px;
 }
 
 .loadMore:active {

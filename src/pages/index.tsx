@@ -5,7 +5,7 @@ import Hero from '../components/Hero';
 const Home: NextPage = () => (
   <>
     <Head>
-      <title>Home | Aleksa</title>
+      <title>aleksa</title>
       <meta name='description' content="Aleksa's personal website" />
     </Head>
     <Hero />

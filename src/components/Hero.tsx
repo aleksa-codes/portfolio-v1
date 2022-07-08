@@ -1,9 +1,9 @@
 import styles from '../styles/Hero.module.css';
+import { BrandGithub, BrandLinkedin, FileText } from 'tabler-icons-react';
 import Typed from 'react-typed';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import PageTransition from './PageTransition';
-import { BrandGithub, BrandLinkedin, FileText } from 'tabler-icons-react';
 
 const text = 'Hello World';
 
@@ -30,8 +30,8 @@ const Hero = () => {
               rotate: {
                 duration: 2.5,
                 ease: 'easeOut',
-                delay: 3.5,
-                repeat: 7,
+                delay: 5,
+                repeat: 3,
                 repeatDelay: 1
               }
             }}

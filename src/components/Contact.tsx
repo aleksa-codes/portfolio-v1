@@ -1,6 +1,6 @@
 import styles from '../styles/Contact.module.css';
-import PageTransition from './PageTransition';
 import { Send, Eraser } from 'tabler-icons-react';
+import PageTransition from './PageTransition';
 
 // const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
 //   e.preventDefault();

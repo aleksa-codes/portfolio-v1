@@ -1,4 +1,5 @@
 import styles from '../styles/Interests.module.css';
+import { Plus } from 'tabler-icons-react';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
@@ -81,8 +82,7 @@ const Interest = () => {
                 onClick={() => setShowMore(true)}
                 className={styles.loadMore}
               >
-                {' '}
-                + Load More
+                <Plus size={20} strokeWidth={2} /> Load More
               </button>
             </div>
           )}
