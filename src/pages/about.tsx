@@ -5,7 +5,7 @@ import About from '../components/About';
 const AboutPage: NextPage = () => (
   <>
     <Head>
-      <title>About | Aleksa</title>
+      <title>About | aleksa</title>
       <meta name='robots' content='noindex,nofollow' />
       <meta name='googlebot' content='noindex,nofollow' />
       <meta name='description' content="Aleksa's about page" />

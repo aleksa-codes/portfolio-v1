@@ -5,7 +5,7 @@ import Projects from '../components/Projects';
 const ProjectsPage: NextPage = () => (
   <>
     <Head>
-      <title>Projects | Aleksa</title>
+      <title>Projects | aleksa</title>
       <meta name='robots' content='noindex,nofollow' />
       <meta name='googlebot' content='noindex,nofollow' />
       <meta name='description' content="Aleksa's projects" />

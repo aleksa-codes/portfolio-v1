@@ -5,7 +5,7 @@ import Interests from '../components/Interests';
 const SkillsPage: NextPage = () => (
   <>
     <Head>
-      <title>Skills | Aleksa</title>
+      <title>Skills | aleksa</title>
       <meta name='robots' content='noindex,nofollow' />
       <meta name='googlebot' content='noindex,nofollow' />
       <meta name='description' content="Aleksa's skills" />
