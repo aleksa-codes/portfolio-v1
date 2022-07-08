@@ -98,8 +98,9 @@
   -o-border-radius: 0.5rem;
 }
 
+/* #B57F50 */
 .submit:hover {
-  background: rgb(92, 160, 142) none repeat scroll 0% 0%;
+  background: #007042 none repeat scroll 0% 0%;
   color: rgb(255, 255, 255);
 }
 
@@ -123,7 +124,7 @@
 }
 
 .reset:hover {
-  background: #734b5e none repeat scroll 0% 0%;
+  background: #984447 none repeat scroll 0% 0%;
   color: rgb(255, 255, 255);
 }
 

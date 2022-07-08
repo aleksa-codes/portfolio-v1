@@ -142,10 +142,6 @@ p {
   margin-bottom: -0.35rem;
 }
 
-.bmc-widget-container #openPayModal {
-  background: #6dc1a3 !important;
-}
-
 .container {
   position: fixed;
   inset: 0;
@@ -271,11 +267,13 @@ p {
   height: 1em;
 }
 
+/* rgb(205, 243, 225) #5CA08E  */
+
 .underline:hover {
-  box-shadow: rgb(205, 243, 225) 0px -1rem 0px inset;
+  box-shadow: #add9f4 0px -1rem 0px inset;
 }
 .underline {
-  box-shadow: rgb(205, 243, 225) 0px -0.5rem 0px inset;
+  box-shadow: #add9f4 0px -0.5rem 0px inset;
   transition: box-shadow 0.3s ease-out 0s;
 }
 
@@ -371,11 +369,11 @@ p {
 }
 
 [data-theme='dark'] .underline:hover {
-  box-shadow: #341677 0px -1rem 0px inset;
+  box-shadow: #007042 0px -1rem 0px inset;
 }
 
 [data-theme='dark'] .underline {
-  box-shadow: #341677 0px -0.5rem 0px inset;
+  box-shadow: #007042 0px -0.5rem 0px inset;
   transition: box-shadow 0.3s ease-out 0s;
 }
 
