@@ -201,10 +201,6 @@
   background: rgb(18, 18, 18) none repeat scroll 0% 0%;
 }
 
-[data-theme='dark'] .logo {
-  color: #dcdcdc;
-}
-
 [data-theme='dark'] .logoA {
   color: white;
 }

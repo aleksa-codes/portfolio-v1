@@ -365,7 +365,7 @@ p {
 }
 
 [data-theme='dark'] .aboutMeTitle {
-  color: #ffff;
+  color: #dcdcdc;
 }
 
 [data-theme='dark'] .underline:hover {
@@ -379,11 +379,15 @@ p {
 
 [data-theme='dark'] body {
   background-color: #121212;
+  color: #fafafa;
+}
+
+[data-theme='dark'] body a {
   color: #dcdcdc;
 }
 
 [data-theme='dark'] h3 {
-  color: #ffff;
+  color: #dcdcdc;
 }
 
 [data-theme='dark'] h4 {
