@@ -158,6 +158,10 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .contactInfo svg {
+    height: 128px;
+  }
 }
 
 [data-theme='dark'] .input {
