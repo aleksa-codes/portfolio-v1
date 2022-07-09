@@ -152,12 +152,7 @@
   margin-left: 4px;
 }
 
-@media only screen and (max-width: 490px) {
-  .contactWrap p {
-    text-align: center;
-    width: 95%;
-  }
-
+@media only screen and (max-width: 480px) {
   .contactInfo {
     display: flex;
     flex-direction: column;
