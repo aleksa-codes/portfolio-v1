@@ -1,6 +1,7 @@
 import styles from '../styles/Contact.module.css';
 import { Send, Eraser } from 'tabler-icons-react';
 import PageTransition from './PageTransition';
+import Avatar from './Avatar';
 
 // const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
 //   e.preventDefault();
@@ -13,10 +14,13 @@ const Contact = () => {
       <section id='contact' className={styles.contact}>
         <h2 className='aboutMeTitle'>Contact me</h2>
         <div className={styles.contactWrap}>
-          <p>
-            Feel free to reach out to me at any time, I am always interested in{' '}
-            <span className='underline'>new stuff</span>!
-          </p>
+          <div className={styles.contactInfo}>
+            <Avatar width={181} height={192} />
+            <p>
+              Feel free to reach out to me at any time, I am always interested
+              in <span className='underline'>new stuff</span>!
+            </p>
+          </div>
           {/* <div className={styles.avatar}>
           <Image src='/contact.png' alt='Avatar' width={140} height={140} />
         </div>
@@ -31,33 +35,35 @@ const Contact = () => {
             method='POST'
             // onSubmit={handleSubmit}
           >
-            <div>
-              <label htmlFor='name-field'>
-                Name
-                <div id='name-field'>
-                  <input
-                    type='text'
-                    name='name'
-                    className={styles.input}
-                    placeholder='e.g. Bon Jovi'
-                    required
-                  ></input>
-                </div>
-              </label>
-            </div>
-            <div>
-              <label htmlFor='email-field'>
-                Email
-                <div id='email-field'>
-                  <input
-                    type='email'
-                    name='email'
-                    className={styles.input}
-                    placeholder='e.g. bon.jovi@gmail.com'
-                    required
-                  ></input>
-                </div>
-              </label>
+            <div className={styles.nameEmail}>
+              <div className={styles.name}>
+                <label htmlFor='name-field'>
+                  Name
+                  <div id='name-field'>
+                    <input
+                      type='text'
+                      name='name'
+                      className={styles.input}
+                      placeholder='e.g. Bon Jovi'
+                      required
+                    ></input>
+                  </div>
+                </label>
+              </div>
+              <div className={styles.email}>
+                <label htmlFor='email-field'>
+                  Email
+                  <div id='email-field'>
+                    <input
+                      type='email'
+                      name='email'
+                      className={styles.input}
+                      placeholder='e.g. bon.jovi@gmail.com'
+                      required
+                    ></input>
+                  </div>
+                </label>
+              </div>
             </div>
             <div>
               <label htmlFor='subject-field'>
