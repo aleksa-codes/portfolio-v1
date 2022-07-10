@@ -145,10 +145,10 @@
 }
 
 .ctaBtnBtn > svg {
-  height: 1rem;
-  width: 1rem;
-  margin-right: 0.3rem;
-  margin-bottom: -0.175rem;
+  height: 1.25rem;
+  width: 1.25rem;
+  margin-right: 0.125rem;
+  margin-bottom: -0.35rem;
 }
 
 @media only screen and (max-width: 992px) {
