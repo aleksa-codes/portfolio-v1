@@ -261,7 +261,7 @@ const Project = () => {
           aria-label='External Link'
         >
           <button className={styles.ctaBtnBtn}>
-            <BrandGithub size={60} strokeWidth={2} /> See More on GitHub
+            <BrandGithub size={24} strokeWidth={2} /> See More on GitHub
           </button>
         </a>
       </section>

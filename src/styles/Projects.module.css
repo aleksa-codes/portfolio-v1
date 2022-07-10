@@ -120,20 +120,17 @@
   font-weight: 700;
 }
 
-.ctaBtn {
-  display: block;
-  text-align: center;
-  margin: 2rem auto;
-}
-
 .ctaBtnBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto;
   cursor: pointer;
   width: 15.625rem;
   height: 3rem;
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   padding: 1rem;
-  margin: 0px auto;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
@@ -145,10 +142,7 @@
 }
 
 .ctaBtnBtn > svg {
-  height: 1.25rem;
-  width: 1.25rem;
-  margin-right: 0.125rem;
-  margin-bottom: -0.35rem;
+  margin-right: 0.25rem;
 }
 
 @media only screen and (max-width: 992px) {
@@ -229,8 +223,4 @@
 [data-theme='dark'] .ctaBtnBtn {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-}
-
-[data-theme='dark'] .ctaBtnBtn > svg {
-  filter: invert(1);
 }
