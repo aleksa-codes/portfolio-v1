@@ -29,7 +29,7 @@
 .button:hover {
   color: #fff;
   background-color: #1a1a1a;
-  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  box-shadow: 0 3px 5px rgb(0 0 0 / 25%);
   transition: all 0.2s ease-out 0s;
   transform: translateY(-1px);
   -webkit-transform: translateY(-1px);

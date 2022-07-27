@@ -40,25 +40,44 @@
   width: 100%;
 }
 
+.contactBtn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #87dabc;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transform-origin: left;
+  transform: translateX(-100%);
+  transition: all 0.4s ease-out;
+}
+
+.contactBtn:hover::before {
+  transform: translateX(0);
+}
+
 .contactBtn {
   width: auto;
   height: auto;
   font-weight: 700;
   border-radius: 1rem;
   border: 2px solid rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0)
-    linear-gradient(to right, rgb(0, 0, 0) 50%, rgb(255, 255, 255) 50%) repeat
-    scroll right bottom / 205% 100%;
-  transition: all 0.1s ease-out 0s;
+  background: rgba(0, 0, 0, 0);
   font-size: 1.125rem;
   padding: 0.5rem 1.5rem;
   margin: 0px;
   margin-right: 2rem;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
 }
 
 .contactBtn:hover {
-  background-position: left bottom;
-  color: rgb(255, 255, 255);
+  color: white;
+  box-shadow: 0 3px 5px rgb(0 0 0 / 25%);
 }
 
 .logo {
@@ -208,16 +227,44 @@
 [data-theme='dark'] .topLinks a:hover {
   color: white;
 }
+
+[data-theme='dark'] .contactBtn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #87dabc;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transform-origin: left;
+  transform: translateX(-100%);
+  transition: all 0.4s ease-out;
+}
+
+[data-theme='dark'] .contactBtn:hover::before {
+  transform: translateX(0);
+}
+
 [data-theme='dark'] .contactBtn {
+  width: auto;
+  height: auto;
+  font-weight: 700;
+  border-radius: 1rem;
   border: 2px solid rgb(255, 255, 255);
-  background: rgb(255, 255, 255)
-    linear-gradient(to right, rgb(255, 255, 255) 50%, #121212 50%) repeat scroll
-    right bottom / 205% 100%;
-  transition: all 0.1s ease-out 0s;
+  background: rgba(0, 0, 0, 0);
+  font-size: 1.125rem;
+  padding: 0.5rem 1.5rem;
+  margin: 0px;
+  margin-right: 2rem;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
 }
 [data-theme='dark'] .contactBtn:hover {
-  background-position: left bottom;
-  color: rgb(0, 0, 0) !important;
+  color: black !important;
+  box-shadow: 0 3px 5px rgb(0 0 0 / 25%);
 }
 
 [data-theme='dark'] .container > .bar1,
