@@ -55,7 +55,7 @@ const Hero = () => {
         </h2>
         <h3>Computer Science Student and Web Developer. Based in Belgrade.</h3>
         <div className='social'>
-          <a href='https://github.com/aleksastojsic' target='_noblank'>
+          <a href='https://github.com/aleksa-codes' target='_noblank'>
             <BrandGithub size={60} strokeWidth={2} />
             GitHub
           </a>
@@ -66,7 +66,7 @@ const Hero = () => {
             <BrandLinkedin size={60} strokeWidth={2} />
             Linkedin
           </a>
-          <a href='https://aleksastojsic.github.io/resume/' target='_noblank'>
+          <a href='https://aleksa-codes.github.io/resume/' target='_noblank'>
             <FileText size={60} strokeWidth={2} />
             Resume
           </a>

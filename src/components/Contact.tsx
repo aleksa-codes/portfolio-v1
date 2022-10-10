@@ -24,8 +24,8 @@ const Contact = () => {
           {/* <div className={styles.avatar}>
           <Image src='/contact.png' alt='Avatar' width={140} height={140} />
         </div>
-        <strong>Aleksa Stojsic</strong>
-        <a href='mailto:stojsic.aleksa@gmail.com'>
+        <strong>Aleksa</strong>
+        <a href='mailto:'>
           <span className='underline'>stojsic.aleksa@gmail.com</span>
         </a> */}
           <form
@@ -105,7 +105,7 @@ const Contact = () => {
             </div>
           </form>
           {/* <div className='social'>
-          <a href='https://github.com/aleksastojsic' target='_noblank'>
+          <a href='https://github.com/aleksa-codes' target='_noblank'>
             <svg
               version='1.1'
               role='img'
@@ -155,7 +155,7 @@ const Contact = () => {
             </svg>{' '}
             Linkedin
           </a>
-          <a href='https://aleksastojsic.github.io/resume/' target='_noblank'>
+          <a href='https://aleksa-codes.github.io/resume/' target='_noblank'>
             <svg
               role='img'
               fill='#000000'

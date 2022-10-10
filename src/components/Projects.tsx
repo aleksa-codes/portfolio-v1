@@ -21,7 +21,7 @@ const Project = () => {
               </div>
               <div className={styles.projectLinks}>
                 <a
-                  href='https://github.com/aleksastojsic'
+                  href='https://github.com/aleksa-codes'
                   target='_blank'
                   rel='nofollow noopener noreferrer'
                   aria-label='External Link'
@@ -115,7 +115,7 @@ const Project = () => {
                 className={`${styles.projectLinks} ${styles.projectLinksRight}`}
               >
                 <a
-                  href='https://github.com/aleksastojsic'
+                  href='https://github.com/aleksa-codes'
                   target='_blank'
                   rel='nofollow noopener noreferrer'
                   aria-label='External Link'
@@ -185,7 +185,7 @@ const Project = () => {
               </div>
               <div className={styles.projectLinks}>
                 <a
-                  href='https://github.com/aleksastojsic'
+                  href='https://github.com/aleksa-codes'
                   target='_blank'
                   rel='nofollow noopener noreferrer'
                   aria-label='External Link'
@@ -255,7 +255,7 @@ const Project = () => {
         </div>
         <a
           className={styles.ctaBtn}
-          href='https://github.com/aleksastojsic'
+          href='https://github.com/aleksa-codes'
           target='_blank'
           rel='nofollow noopener noreferrer'
           aria-label='External Link'
